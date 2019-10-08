@@ -1,0 +1,11 @@
+if [ "help" = $1 ];then
+	echo "change_link {HOSTNAME} {SBRNAME}"
+else
+	HOST=$1
+	PORT=${HOST}p1
+	SBR=$2
+	ovs-vsctl del-port $PORT
+	ovs-vsctl add-port $SBR $PORT
+	ip netns exec $HOST ./bin/send register
+fi
+

@@ -1,0 +1,12 @@
+v3.0 uses NAMESPACE to represent both sat and user.
+Compared to v2.0, ns-br-ns mode is used to replace ns-br-br-ns mode.
+
+v3.1 deletes NAMESPACE of sat compared to v3.0, replaces with only br,and add IP to sbr.
+
+v3.2 replaces BR with OVS and deletes functions unused(especially in cmd.h/cpp) compared to v3.1.
+And, it also adds host apps to send packet when change satellite.
+
+v3.3 adds user-physical mode (using one ovs named pbr to control physical users).
+
+v3.4 modified user-physical mode. Each physical-host mapped to an ovs and a vxlan-tap.
+Some codes are also re-built(especially in cmd.h/cpp).

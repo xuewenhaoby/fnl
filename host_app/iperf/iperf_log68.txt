@@ -1,0 +1,19 @@
+------------------------------------------------------------
+Client connecting to 5.0.0.2, UDP port 5001
+Sending 1470 byte datagrams
+UDP buffer size:  208 KByte (default)
+------------------------------------------------------------
+[  3] local 13.0.0.69 port 47230 connected with 5.0.0.2 port 5001
+[ ID] Interval       Transfer     Bandwidth
+[  3]  0.0- 2.0 sec  2.38 MBytes  10.0 Mbits/sec
+[  3]  2.0- 4.0 sec  2.37 MBytes  9.95 Mbits/sec
+[  3]  4.0- 6.0 sec  2.38 MBytes  10.0 Mbits/sec
+[  3]  6.0- 8.0 sec  2.38 MBytes  10.0 Mbits/sec
+[  3]  8.0-10.0 sec  2.38 MBytes  10.0 Mbits/sec
+[  3] 10.0-12.0 sec  2.38 MBytes  9.99 Mbits/sec
+[  3] 12.0-14.0 sec  2.38 MBytes  10.0 Mbits/sec
+[  3] 14.0-16.0 sec  2.38 MBytes  10.0 Mbits/sec
+[  3] 16.0-18.0 sec  2.38 MBytes  9.99 Mbits/sec
+[  3] 18.0-20.0 sec  2.38 MBytes  10.0 Mbits/sec
+[  3] 20.0-22.0 sec  2.38 MBytes  10.0 Mbits/sec
+[  3] 22.0-24.0 sec  2.38 MBytes  10.0 Mbits/sec
